@@ -20,7 +20,7 @@ public class Random
 						{
 							i++;
 							t1ran = i;
-							if(i==1000)
+							if(i==500)
 								i=0;
 						}
 					}
@@ -44,6 +44,7 @@ public class Random
 		TimeUnit.SECONDS.sleep(1);
 		t1.stop();
 		t2.stop();
+		// Plotting need to be done here
 		//System.out.println("x="+t1ran+"y="+ t2ran);
 
 	}
