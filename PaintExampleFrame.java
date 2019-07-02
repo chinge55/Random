@@ -13,7 +13,7 @@ class PaintExampleFrame extends JFrame
 		setLocation(new Point(110,110));
 		setVisible(true);
 		setBackground(Color.black);
-		System.out.println(Random.t1ran+"kfjhasd"+Random.t2ran);		
+		System.out.println("Starting point"+Random.t1ran+","+Random.t2ran);		
 	}	
 	public void paint(Graphics g) 
 	{
