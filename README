@@ -1,0 +1,2 @@
+This is just a example for generating random numbers and plotting them in a graph.
+To change the numbers of points on graph change the value of 'i' on line no 26 of file PaintExampleFrame.java 

@@ -1,9 +1,14 @@
 import java.util.concurrent.TimeUnit;
+import java.awt.*;
+import javax.swing.*;
 public class Random
 {
-		static int t1ran=0, t2ran=0;
+	public static int t1ran=0, t2ran=0;
 	public static void main(String[] args) throws Exception
 	{
+	JFrame f;
+	f = new PaintExampleFrame();
+	f.setVisible(true);
 	while(true)
 	{
 		Thread t1 = new Thread(new Runnable()
@@ -29,7 +34,7 @@ public class Random
 						{
 							i++;
 							t2ran = i;
-							if(i==1000)
+							if(i==500)
 								i=0;
 						}
 					}
@@ -39,7 +44,8 @@ public class Random
 		TimeUnit.SECONDS.sleep(1);
 		t1.stop();
 		t2.stop();
-		System.out.println("x="+t1ran+"y="+ t2ran);
+		//System.out.println("x="+t1ran+"y="+ t2ran);
+
 	}
 	}
 
