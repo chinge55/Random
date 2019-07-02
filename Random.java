@@ -9,8 +9,8 @@ public class Random
 	JFrame f;
 	f = new PaintExampleFrame();
 	f.setVisible(true);
-	while(true)
-	{
+	//while(true)
+	//{
 		Thread t1 = new Thread(new Runnable()
 				{
 					public void run()
@@ -41,13 +41,13 @@ public class Random
 				});
 		t1.start();
 		t2.start();
-		TimeUnit.SECONDS.sleep(1);
-		t1.stop();
-		t2.stop();
+		//TimeUnit.SECONDS.sleep(1);
+		//t1.stop();
+		//t2.stop();
 		// Plotting need to be done here
 		//System.out.println("x="+t1ran+"y="+ t2ran);
 
-	}
+	//}
 	}
 
 }

@@ -26,7 +26,8 @@ class PaintExampleFrame extends JFrame
 			System.out.println("x="+x+"y="+y);
 			g.drawLine(x,y,x,y);
 			try{
-				TimeUnit.SECONDS.sleep(1);
+				
+				TimeUnit.MILLISECONDS.sleep(10);
 			}
 			catch(Exception e)
 			{
