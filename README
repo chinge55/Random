@@ -1,3 +1,19 @@
-This is just a example for generating random numbers and plotting them in a graph.
+This is just a example for generating random numbers and plotting them in a graph and to see whether random points generated are in clusters or not.
+
 To change the numbers of points on graph change the value of 'i' on line no 36 of file PaintExampleFrame.java 
-Please run the program and send me output.txt file
+
+A screenshot is taken at the end of the program and a sample screenshot is also included and the outputs are saved in output.txt file.
+
+The points are plotted in a window where origin starts from the top left of the screen.
+	Occurences of a point and color:
+		1. Red
+		2. Blue
+		3. Green
+		4. Yellow
+		Others not done because I haven't even seen Green or yellow colors yet.
+To run the program:
+	make
+In Windows:
+	javac Random.java PaintExampleFrame.java
+	java Random
+
